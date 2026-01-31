@@ -1,0 +1,4 @@
+# requirements.txt
+# No third-party packages required — the project uses Python standard library (sqlite3, datetime).
+# Recommended Python version
+python>=3.8
