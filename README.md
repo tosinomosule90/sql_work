@@ -1,4 +1,4 @@
-# Event Scheduler 📅
+# Event Scheduler 
 
 **Brief description**
 
@@ -6,7 +6,7 @@ A small command-line Event Scheduler written in Python that stores events in a l
 
 ---
 
-## How it works 🔧
+## How it works 
 
 - `main.py` runs a loop that prompts the user for commands and input values.
 - `func.py` contains event validation and `create_event()` which:
@@ -18,7 +18,7 @@ A small command-line Event Scheduler written in Python that stores events in a l
 
 ---
 
-## Quick start 🚀
+## Quick start 
 
 1. Ensure you have Python 3.8+ installed.
 2. (Optional) Create and activate a virtual environment:
@@ -34,7 +34,7 @@ A small command-line Event Scheduler written in Python that stores events in a l
 
 ---
 
-## Important notes & formats ⚠️
+## Important notes & formats 
 
 - Date formats accepted: `YYYY-MM-DD` or `Oct 31, 2025`.
 - Time format: `HH:MM` (24-hour).
@@ -43,7 +43,7 @@ A small command-line Event Scheduler written in Python that stores events in a l
 
 ---
 
-## File overview 📁
+## File overview 
 
 - `main.py` — CLI menu and user interaction.
 - `func.py` — input parsing and event validation logic.
@@ -51,7 +51,7 @@ A small command-line Event Scheduler written in Python that stores events in a l
 
 ---
 
-## Requirements 📦
+## Requirements 
 
 - No third-party packages required — uses Python standard library (`sqlite3`, `datetime`).
 - Recommended Python: 3.8+
@@ -63,7 +63,7 @@ To verify your environment:
 python --version
 ```
 
-## Sample Run Output 🖥️
+## Sample Run Output 
 
 Below is a sample interaction showing an `INSERT` followed by `RETRIEVE ALL`:
 
